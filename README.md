@@ -122,5 +122,11 @@ to                  | to             : ADP
 school              | school         : NOUN   
 
 ```
+# BN_Pos-Tagger
+Up comming ......................................
+# Contributor
+- Md. Saiful Islam
+- soutsios
+
 
 
