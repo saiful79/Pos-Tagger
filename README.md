@@ -81,22 +81,46 @@ prohibited VERB  : VERB
 
 
 ```
-
-
-Traning loss and accuracy plot here
-
-![accuracy](plot_acc.png)
-
-![loss](plot_loss.png)
-
-
 # Model inference 
-Download pretrain model [here]() and run below this script,
+Download pretrain model [here](https://drive.google.com/file/d/1I6YtAhRWwERIzdzFiLPH-yFU_QpBshby/view?usp=sharing) and run below this script,
 
 ```inference.py```
 Test sentence :
-1: 
+1:'Word embeddings provide a dense representation of words and their relative meanings.'
+```
 
-2:
+Word in BERT layer  | Initial word   : Predicted POS-tag
+-------------------------------------------------------------
+word                | word           : NOUN           
+##s                 | embeddings     : NOUN           
+provide             | provide        : VERB           
+a                   | a              : DET            
+dense               | dense          : ADJ            
+representation      | representation : NOUN           
+of                  | of             : ADP            
+words               | words          : NOUN           
+and                 | and            : CCONJ          
+their               | their          : DET            
+relative            | relative       : ADJ            
+meanings            | meanings       : NOUN           
+.                   | .              : PUNCT  
+```
+
+2: i eat rich and then i go to school
+
+```
+Word in BERT layer  | Initial word   : Predicted POS-tag
+-------------------------------------------------------------
+i                   | i              : PRON           
+eat                 | eat            : VERB           
+rich                | rich           : ADJ            
+and                 | and            : CCONJ          
+then                | then           : ADV            
+i                   | i              : PRON           
+go                  | go             : VERB           
+to                  | to             : ADP            
+school              | school         : NOUN   
+
+```
 
 
