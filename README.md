@@ -1,7 +1,7 @@
 # Pos-Tagger
 Α Pos Tagger trained on UD treebank with fine-tuning a BERT model
 
-network model
+### network model structure
 
 ![model](model.png)
 
