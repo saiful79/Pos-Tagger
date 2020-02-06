@@ -2,6 +2,8 @@
 Α Pos Tagger trained on UD treebank with fine-tuning a BERT model
 
 # Environment
+- Keras==2.2.5
+- nltk==3.2.5  
 - pyconll
 - pydot
 - graphiz
