@@ -6,10 +6,10 @@
 # Copyright :
 ##############################################################
 # First install some extra packages
-! pip install pyconll
-! pip install pydot
-! pip install graphiz
-! pip install bert-tensorflow
+# ! pip install pyconll
+# ! pip install pydot
+# ! pip install graphiz
+# ! pip install bert-tensorflow
 
 from numpy.random import seed
 seed(1)
