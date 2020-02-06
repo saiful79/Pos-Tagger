@@ -25,3 +25,9 @@ def download_files():
 download_files()
 
 ```
+# Train pos tagger model
+Run script ``` train.py ```
+
+# Model inference 
+Download pretrain model [here]() and run below this script ```inference.py```
+
