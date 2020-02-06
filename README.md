@@ -1,6 +1,10 @@
 # Pos-Tagger
 Α Pos Tagger trained on UD treebank with fine-tuning a BERT model
 
+network model
+
+![model](model.png)
+
 # Environment
 - Keras==2.2.5
 - nltk==3.2.5  
